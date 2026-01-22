@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://ecommerce-backend-gqzn.onrender.com/api',
 });
 
 // Interceptor to attach JWT token to every request

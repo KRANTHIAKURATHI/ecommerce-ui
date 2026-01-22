@@ -119,7 +119,7 @@ function CartPage() {
                     {/* Product Image */}
                     <div className="w-24 h-24 bg-gray-50 rounded-lg flex items-center justify-center p-2">
                       <img 
-                        src={`http://localhost:5000/api/images/${item.imageURL}`} 
+                        src={`https://ecommerce-backend-gqzn.onrender.com/api/images/${item.imageURL}`} 
                         className="max-w-full max-h-full object-contain" 
                         alt={item.product_name} 
                       />

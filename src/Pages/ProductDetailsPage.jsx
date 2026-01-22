@@ -105,7 +105,7 @@ function ProductDetailsPage() {
       <div className="flex-1 p-6">
         <div className="bg-white p-8 rounded shadow-lg max-w-5xl">
           <div className="flex gap-10 mb-8">
-            <img src={`http://localhost:5000/api/images/${product.imageURL}`} className="w-64 h-64 object-contain" alt=""/>
+            <img src={`https://ecommerce-backend-gqzn.onrender.com/api/images/${product.imageURL}`} className="w-64 h-64 object-contain" alt=""/>
             <div className="flex-1">
               <h1 className="text-2xl font-bold">{product.product_name}</h1>
               <p className="text-xl text-blue-600 font-bold mt-2">₹{product.amount}</p>

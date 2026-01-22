@@ -73,7 +73,7 @@ function Sidebar() {
                   className="flex items-center p-3 hover:bg-gray-100 cursor-pointer border-b last:border-0"
                 >
                   <img 
-                    src={`http://localhost:5000/api/images/${product.imageURL}`} 
+                    src={`https://ecommerce-backend-gqzn.onrender.com/api/images/${product.imageURL}`} 
                     alt="" 
                     className="w-10 h-10 object-cover rounded mr-3" 
                   />

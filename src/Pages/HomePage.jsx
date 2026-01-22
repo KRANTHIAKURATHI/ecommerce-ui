@@ -42,7 +42,7 @@ function HomePage() {
                 onClick={() => handleProductClick(product)}
               >
                 <img
-                    src={`http://localhost:5000/api/images/${product.imageURL}`}
+                    src={`https://ecommerce-backend-gqzn.onrender.com/api/images/${product.imageURL}`}
                     alt={product.product_name}
                     className="w-full h-48 object-contain rounded"
                     onError={(e) => e.target.src = 'https://via.placeholder.com/200x200?text=No+Image'}

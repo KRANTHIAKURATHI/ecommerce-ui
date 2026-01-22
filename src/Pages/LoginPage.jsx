@@ -29,7 +29,7 @@ function LoginPage() {
   // Google OAuth Handler
   const handleGoogleLogin = () => {
     // Redirects browser to Node.js which then redirects to Google
-    window.location.href = 'http://localhost:5000/api/auth/google';
+    window.location.href = 'https://ecommerce-backend-gqzn.onrender.com/api/auth/google';
   };
 
   return (

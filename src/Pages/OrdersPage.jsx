@@ -84,7 +84,7 @@ function OrdersPage() {
                       <div className="flex items-center justify-between">
                         <div className="flex items-center flex-1">
                           <img 
-                            src={`http://localhost:5000/api/images/${product.image}`} 
+                            src={`https://ecommerce-backend-gqzn.onrender.com/api/images/${product.image}`} 
                             className="w-20 h-20 object-contain border rounded p-1" 
                             alt={product.name} 
                           />
