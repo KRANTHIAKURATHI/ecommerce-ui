@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 function HomePage() {
   const [products, setProducts] = useState([]);
   const navigate = useNavigate();
-
+//
   useEffect(() => {
     const userID = localStorage.getItem('userID');
     if (!userID) {
